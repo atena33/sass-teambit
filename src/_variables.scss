@@ -1,0 +1,14 @@
+$grigio: #BDB5AF;
+$blu: #2E4691;
+$viola:#30488F;
+$display: flex;
+
+@mixin background-primo {
+  background: #FFFFFF;
+  color: #58402c;;
+}
+
+@mixin background-secondo {
+  background: #FFE7D2;
+  color: #58402c;;
+}
