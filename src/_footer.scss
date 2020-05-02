@@ -1,0 +1,36 @@
+footer {
+  @include background-primo;
+  display: $display;
+  padding: 70px;
+  .prima-col{
+    display: $display;
+    align-items: flex-start;
+    width: 350px;
+    img {
+      padding-right: 20px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 25px;
+      padding-right: 50px;
+
+      a {
+        color: $blu;
+      }
+    }
+  }
+  .altra-col {
+    padding-right: 40px;
+    display: $display;
+    flex-direction: column;
+    flex-wrap: wrap;
+    h4 {
+      font-size: 16px;
+      padding-bottom: 30px;
+    }
+    a {
+      font-size: 12px;
+      line-height: 30px;
+    }
+  }
+}

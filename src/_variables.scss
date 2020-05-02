@@ -1,6 +1,6 @@
 $grigio: #BDB5AF;
 $blu: #2E4691;
-$viola:#30488F;
+$viola: #4B0082i;
 $display: flex;
 
 @mixin background-primo {
@@ -11,4 +11,41 @@ $display: flex;
 @mixin background-secondo {
   background: #FFE7D2;
   color: #58402c;;
+}
+
+@mixin bottone {
+  border: solid 1px $blu;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: $blu;
+  color: white;
+    &:hover {
+    background-color: $viola;
+  }
+}
+
+@mixin titolo {
+  font-size: 26px;
+  max-width: 400px;
+  line-height: 30px;
+  padding-bottom: 30px;
+}
+
+@mixin paragrafo {
+  font-size: 20px;
+  max-width: 400px;
+  line-height: 40px;
+  padding-bottom: 30px;
+}
+
+@mixin learn {
+  color: $blu;
+  font-size: 20px;
+}
+
+@mixin foto{
+  width: 250px;
+  height: auto;
+  margin-top: 40px;
+  margin-left: 20%;
 }
