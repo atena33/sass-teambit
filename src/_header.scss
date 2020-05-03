@@ -3,13 +3,21 @@
 header {
   @include background-primo;
   display: $display;
+  flex-wrap: wrap;
   height: 70px;
   justify-content: space-between;
   align-items: center;
   font-size: .875rem;
   font-weight: bold;
-  border-bottom: solid 1px $grigio;
-  margin: 0 10% 0;
+  position: fixed;
+  top:0;
+  padding: 0 10%;
+  width: 100%;
+  .bordo {
+    border-bottom: solid 1px gray;
+    display: block;
+    width: 100%;
+  }
 
     ul {
     display: $display;

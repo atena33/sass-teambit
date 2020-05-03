@@ -2,7 +2,7 @@
 
 #jumbotron {
   display: $display;
-  margin: 0 10% 100px;
+  margin: 170px 10% 100px;
   .jumbo {
     h1 {
       font-size: 50px;
@@ -40,7 +40,7 @@
     }
   }
 }
-// Qui inizia la seconda e della terza sezione del main
+// Qui inizia la seconda e la terza sezione del main
 
 .rosa {
   @include background-secondo;
@@ -74,7 +74,11 @@
 // Qui ci sono alcune specifiche per la terza sezione
 
 #terza {
-  border-top: solid 1px;
+  .bordo {
+    border-top: solid 1px gray;
+    width: 80%;
+    margin: 0 10%;
+  }
   #safe {
     font-weight: bold;
     font-size: 30px;

@@ -5,7 +5,7 @@
 }
 
 * body {
-  font-family: "HarmoniaSansProCyr-Regular", Arial, sans-serif;
+  font-family: "Harmonia Sans Pro Cyr-Regular", Arial, sans-serif;
   color: #58402c;
 }
 
@@ -26,13 +26,22 @@ header {
   background: #FFFFFF;
   color: #58402c;
   display: flex;
+  flex-wrap: wrap;
   height: 70px;
   justify-content: space-between;
   align-items: center;
   font-size: 0.875rem;
   font-weight: bold;
-  border-bottom: solid 1px #BDB5AF;
-  margin: 0 10% 0;
+  position: fixed;
+  top: 0;
+  padding: 0 10%;
+  width: 100%;
+}
+
+header .bordo {
+  border-bottom: solid 1px gray;
+  display: block;
+  width: 100%;
 }
 
 header ul {
@@ -58,7 +67,7 @@ header #bottone a:hover {
 
 #jumbotron {
   display: flex;
-  margin: 0 10% 100px;
+  margin: 170px 10% 100px;
 }
 
 #jumbotron .jumbo h1 {
@@ -143,8 +152,10 @@ header #bottone a:hover {
   margin-bottom: 100px;
 }
 
-#terza {
-  border-top: solid 1px;
+#terza .bordo {
+  border-top: solid 1px gray;
+  width: 80%;
+  margin: 0 10%;
 }
 
 #terza #safe {
@@ -341,5 +352,9 @@ footer .altra-col h4 {
 footer .altra-col a {
   font-size: 12px;
   line-height: 30px;
+}
+
+footer .ultima-col {
+  max-width: 15%;
 }
 
